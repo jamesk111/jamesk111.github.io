@@ -1,0 +1,65 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+i {
+    display: block;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #343a40;
+}
+
+.content-wrapper {
+    margin-bottom: 115px;
+}
+
+.section-wrapper {
+    margin-bottom: 10rem;
+}
+
+.profile-image {
+    height: 200px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.bio {
+    width: 75%;
+}
+
+.card {
+    width: 250px;
+    margin: 0 20px 20px 20px;
+}
+
+.contact a {
+    transition: font-size 0.5s ease;
+}
+
+.contact a:hover {
+    font-size: 1.5rem;
+}
+
+footer {
+    position: absolute;
+    height: 115px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
