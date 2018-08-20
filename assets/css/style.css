@@ -36,8 +36,18 @@ a:hover {
 }
 
 .card {
-    width: 250px;
+    width: 300px;
     margin: 0 20px 20px 20px;
+}
+
+.card .btn {
+
+}
+
+.thumbnail iframe {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
 }
 
 .contact a {
